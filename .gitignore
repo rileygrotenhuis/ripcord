@@ -1,0 +1,8 @@
+/vendor/
+/vendor/autoload.php
+/composer.lock
+/vendor/composer/
+/log/
+.env
+/config.php
+.idea

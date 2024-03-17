@@ -1,0 +1,20 @@
+{
+    "name": "rileygrotenhuis/ripcord",
+    "description": "Build chart.js components with PHP",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Rileygrotenhuis\\Ripcord\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Riley Grotenhuis"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "laravel/pint": "^1.14",
+        "phpunit/phpunit": "^11.0"
+    }
+}
