@@ -2,7 +2,7 @@
 
 namespace Rileygrotenhuis\Ripcord\Charts;
 
-use Rileygrotenhuis\Ripcord\Colors;
+use Rileygrotenhuis\Ripcord\Config\Colors;
 
 class LineChart extends Chart
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Rileygrotenhuis\Ripcord;
+namespace Rileygrotenhuis\Ripcord\Config;
 
 class Colors
 {
