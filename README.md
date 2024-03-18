@@ -72,6 +72,7 @@ Ripcord currently supports the following chart types:
 - Pie
 - Scatter
 - Bubble
+- Polar Area
 
 ## License
 
