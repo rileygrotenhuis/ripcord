@@ -6,6 +6,7 @@ use Rileygrotenhuis\Ripcord\Charts\BarChart;
 use Rileygrotenhuis\Ripcord\Charts\BubbleChart;
 use Rileygrotenhuis\Ripcord\Charts\LineChart;
 use Rileygrotenhuis\Ripcord\Charts\PieChart;
+use Rileygrotenhuis\Ripcord\Charts\PolarAreaChart;
 use Rileygrotenhuis\Ripcord\Charts\ScatterChart;
 
 class ChartBuilder
@@ -39,5 +40,12 @@ class ChartBuilder
     public static function bubbleChart(array $data): BubbleChart
     {
         return new BubbleChart($data);
+    }
+
+    public static function polarAreaChart(
+        array $labels,
+        array $data
+    ): PolarAreaChart {
+        return new PolarAreaChart($labels, $data);
     }
 }
